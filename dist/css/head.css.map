@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,UAAU;EACN,UAAU,EAAE,OAAO;EACnB,aAAE;IACE,OAAO,EAAE,KAAK;IACd,KAAK,EAAE,KAAK;IACZ,MAAM,EAAE,IAAI;IACZ,UAAU,EAAE,+BAA+B",
+"sources": ["../sass/head.scss"],
+"names": [],
+"file": "head.css"
+}

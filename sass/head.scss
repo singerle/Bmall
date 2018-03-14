@@ -1,13 +1,125 @@
 $content-width:1200px;
-body{
-    color: red;
-    span{
-        color: green;
-    }
-    #box{
+$logo-width:300px;
+.bg_header {
+    background: #0b3654;
+    .head {
         width: $content-width;
-        height: 300px;
-        background: red;
-        list-style-position: dd dd ;
+        overflow: hidden;
+        height: 90px;
+        .logo {
+            float: left;
+            display: block;
+            width: $logo-width;
+            height: 65px;
+            background: url(../img/Flogo.jpg) no-repeat;
+            margin-top: 20px;
+        }
+        .top_nav {
+            float: right;
+            height: 34px;
+            line-height: 34px;
+            color: #B8B8B8;
+            .top_ico {
+                font-size: 8px;
+                display: inline-block;
+                width: 18px;
+                height: 25px;
+                vertical-align: top;
+                text-align: center;
+                background: url(../img/Ficon.png) -49px 10px;
+            }
+            span {
+                color: #fff;
+            }
+            a {
+                color: #b8b8b8;
+            }
+        }
+        .shopping-cart {
+            float: right;
+            margin-top: 47px;
+            width: 260px;
+            height: 30px;
+            line-height: 30px;
+            color: #000;
+            background: url(../img/shopping_cart.jpg) 0 0 no-repeat;
+            margin-right: -433px;
+            .cart-count {
+                position: absolute;
+                left: 1108px;
+                color: #fff;
+                top: 33px;
+                line-height: 16px;
+                text-align: center;
+                height: 20px;
+                width: 20px;
+                background: url(../img/Ficon.png) -49px -300px;
+            }
+            a {
+                float: left;
+                display: block;
+                height: 30px;
+                line-height: 30px;
+            }
+            .my-order {
+                padding-left: 33px;
+                padding-right: 27px;
+            }
+            .my-bill {
+                padding-left: 50px;
+                padding-right: 29px;
+            }
+        }
+        .search {
+            $input-height: 30px;
+            position: absolute;
+            width: 322px;
+            height: $input-height;
+            top: 48px;
+            left: 50%;
+            margin-left: -160px;
+            background: #b8b8b8;
+            input {
+                height: 24px;
+                float: left;
+                border: 0 none;
+                padding: 3px 6px;
+                line-height: 24px;
+                color: #555;
+                font-size: 14px;
+                width: 230px;
+                background: none;
+            }
+            .btn-search {
+                color: #FFFFFF;
+                float: left;
+                width: 80px;
+                cursor: pointer;
+                font-size: 14px;
+                line-height: 30px;
+                text-align: center;
+                height: 30px;
+                background: url(../img/btn_search.jpg) 0 0 no-repeat;
+            }
+        }
     }
+    .bg-nav {
+        height: 50px;
+        width: 100%;
+        background: url(../img/bg_nav.jpg) 0 repeat-x;
+        ul{
+           li{
+               float: left;
+               list-style: none;
+               width: 110px;
+               height: 50px;
+               a{
+                   width: 100%;
+                   height: 100%;
+                   color: ;
+               }
+           } 
+        }
+    }
+    
 }

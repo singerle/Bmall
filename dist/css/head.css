@@ -1,0 +1,9 @@
+.bg_header {
+  background: #0b3654; }
+  .bg_header em {
+    display: block;
+    width: 300px;
+    height: 65px;
+    background: url(../img/Flogo.jpg) no-repeat; }
+
+/*# sourceMappingURL=head.css.map */
