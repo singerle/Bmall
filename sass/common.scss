@@ -1,4 +1,5 @@
-body,input,ul,li{
+$content-width:1200px;
+body,input,ul,li,form,p,dl,dt,dd{
     margin: 0;
     padding: 0;}
    body{
@@ -9,12 +10,19 @@ body,input,ul,li{
         text-decoration: none;
         color:#000000;
     }
+    b{
+        font-style: normal;
+    }
     input{
         border: none;
         outline: none;
     }
+    li{
+        list-style: none;
+    }
 }
 
-.head{
+.head,.nav,.menu-banner{
+    width: $content-width;
     margin: 0 auto;
 }
