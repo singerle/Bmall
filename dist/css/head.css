@@ -130,7 +130,8 @@
         background: url(../img/bg_nav_hover.jpg) repeat-x; }
 
 .menu-banner {
-  position: relative; }
+  position: relative;
+  height: 303px; }
   .menu-banner .left-menu {
     background: #e6e6e6;
     width: 300px;
@@ -162,6 +163,7 @@
         line-height: 40px; }
       .menu-banner .left-menu > ul > li > ul {
         position: absolute;
+        z-index: 3;
         display: none;
         left: 300px;
         width: 300px;
@@ -190,3 +192,42 @@
             border-left: 1px solid #b8b8b8; }
             .menu-banner .left-menu > ul > li > ul li a:hover {
               text-decoration: underline; }
+  .menu-banner #right-banner {
+    position: relative;
+    top: -302px;
+    left: 301px;
+    width: 900px;
+    height: 301px;
+    overflow: hidden; }
+    .menu-banner #right-banner #scrollList {
+      height: 301px;
+      position: absolute;
+      overflow: hidden;
+      display: flex;
+      justify-content: flex-start; }
+      .menu-banner #right-banner #scrollList > li {
+        width: 900px;
+        height: 301px; }
+        .menu-banner #right-banner #scrollList > li > a {
+          display: block;
+          width: 100%;
+          height: 100%; }
+        .menu-banner #right-banner #scrollList > li img {
+          width: 100%;
+          height: 100%;
+          display: block;
+          border: none; }
+    .menu-banner #right-banner #focus {
+      position: absolute;
+      right: 50px;
+      bottom: 20px; }
+      .menu-banner #right-banner #focus li {
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+        float: left;
+        cursor: pointer;
+        background: #b8b8b8;
+        border-radius: 3px; }
+        .menu-banner #right-banner #focus li:hover, .menu-banner #right-banner #focus li.hover {
+          background: #ee7207; }

@@ -22,7 +22,12 @@ body,input,ul,li,form,p,dl,dt,dd{
     }
 }
 
-.head,.nav,.menu-banner{
+.head,.nav,.menu-banner,.aside-main{
     width: $content-width;
     margin: 0 auto;
 }
+.iconx {
+    background-image: url(../img/Ficon.png);
+    background-repeat: no-repeat;
+}
+        

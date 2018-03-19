@@ -1,7 +1,6 @@
 $(function() {
 	$.getJSON("../json/data.json", function(data) {
 		var str = "<ul>";
-		console.log($(".left-menu").children()[0]);
 		//获取数据
 		for(var i = 0;i < data.length;i++){
 			var secondMenu = data[i].content;

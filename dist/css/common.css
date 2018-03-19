@@ -17,6 +17,10 @@ body {
   body li {
     list-style: none; }
 
-.head, .nav, .menu-banner {
+.head, .nav, .menu-banner, .aside-main {
   width: 1200px;
   margin: 0 auto; }
+
+.iconx {
+  background-image: url(../img/Ficon.png);
+  background-repeat: no-repeat; }

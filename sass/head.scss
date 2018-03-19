@@ -160,6 +160,7 @@ $logo-width:300px;
 
 .menu-banner {
     position: relative;
+    height: 303px;
     .left-menu {
         background: #e6e6e6;
         width: 300px;
@@ -171,9 +172,9 @@ $logo-width:300px;
                 height: 40px;
                 width: 265px;
                 line-height: 40px;
-                &:hover{
+                &:hover {
                     background: #fff;
-                    ul{
+                    ul {
                         display: block;
                     }
                 }
@@ -185,7 +186,7 @@ $logo-width:300px;
                     margin: 10px 5px 10px 0;
                     background: url(../img/Ficon.png) 0px 2px no-repeat;
                 }
-                a{
+                a {
                     font-size: 14px;
                     font-weight: 700;
                     color: #000;
@@ -194,26 +195,27 @@ $logo-width:300px;
                     width: auto;
                     line-height: 40px;
                 }
-                >ul{
+                >ul {
                     position: absolute;
+                    z-index: 3;
                     display: none;
-                    left:300px;
+                    left: 300px;
                     width: 300px;
                     padding: 2px 10px 13px 16px;
                     background: #fff;
-                    >li:last-of-type{
-                        a{
+                    >li:last-of-type {
+                        a {
                             border-right: 1px solid #b8b8b8;
                         }
                     }
-                    li{
+                    li {
                         float: left;
                         height: auto;
                         width: auto;
                         margin-top: 10px;
                         text-align: left;
                         float: left;
-                        a{
+                        a {
                             color: #515050;
                             font-size: 12px;
                             display: block;
@@ -225,13 +227,61 @@ $logo-width:300px;
                             white-space: nowrap;
                             font-weight: normal;
                             border-left: 1px solid #b8b8b8;
-                            &:hover{
-                              text-decoration: underline;  
+                            &:hover {
+                                text-decoration: underline;
                             }
                         }
                     }
-                   
-                    
+                }
+            }
+        }
+    }
+    #right-banner {
+        $bannerwidth: 900px;
+        $bannerheight: 301px;
+        position: relative;
+        top: -302px;
+        left: 301px;
+        width: $bannerwidth;
+        height: $bannerheight;
+        overflow: hidden;
+        #scrollList {
+            height: $bannerheight;
+            position: absolute;
+            overflow: hidden;
+            display: flex;
+            justify-content: flex-start;
+            >li {
+                width: $bannerwidth;
+                height: $bannerheight;
+                >a {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+                img {
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                    border: none;
+                }
+            }
+        }
+        #focus {
+            position: absolute;
+            right: 50px;
+            bottom: 20px;
+            li {
+                width: 18px;
+                height: 18px;
+                margin-right: 5px;
+                float: left;
+                cursor: pointer;
+                background: #b8b8b8;
+                border-radius: 3px;
+                &:hover,
+                &.hover {
+                    background: rgb(238, 114, 7);
                 }
             }
         }

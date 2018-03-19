@@ -1,0 +1,50 @@
+.recommend-right {
+  float: left; }
+  .recommend-right ul.smallEye {
+    height: 98px;
+    width: 900px; }
+    .recommend-right ul.smallEye li {
+      background: #353a40;
+      margin-right: 1px;
+      float: left;
+      padding: 12px;
+      width: 200px;
+      height: 74px; }
+      .recommend-right ul.smallEye li a {
+        width: 200px;
+        height: 74px; }
+        .recommend-right ul.smallEye li a img {
+          width: 200px;
+          height: 74px;
+          border: 0; }
+  .recommend-right .recommend-goods {
+    height: 260px;
+    width: 100%;
+    margin-top: 1px; }
+    .recommend-right .recommend-goods ul {
+      height: 36px;
+      font-size: 14px;
+      line-height: 36px; }
+      .recommend-right .recommend-goods ul li {
+        float: left;
+        background: #20252a;
+        height: 36px;
+        width: 33.21%;
+        text-align: center;
+        cursor: pointer;
+        color: #fff; }
+        .recommend-right .recommend-goods ul li span {
+          display: inline-block;
+          height: 16px;
+          width: 16px;
+          margin-right: 8px;
+          vertical-align: middle; }
+      .recommend-right .recommend-goods ul li.hot span {
+        background: url(../img/Ficon.png) no-repeat -50px -150px; }
+      .recommend-right .recommend-goods ul li.new {
+        margin: 0 1px;
+        background: #353a40; }
+        .recommend-right .recommend-goods ul li.new span {
+          background: url(../img/Ficon.png) no-repeat -50px -200px; }
+      .recommend-right .recommend-goods ul li.super span {
+        background: url(../img/Ficon.png) no-repeat -50px -250px; }
