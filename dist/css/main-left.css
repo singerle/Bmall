@@ -48,13 +48,6 @@
       background-position: -6px -247px; }
       .type-left ul.game-type li.ow a:hover {
         background: url(../img/game_type4.jpg) no-repeat -265px -247px; }
-  .type-left .case-title {
-    background: url(../img/bg_case.jpg) 0 repeat-x;
-    font-size: 14px;
-    line-height: 35px;
-    height: 35px;
-    color: #000;
-    padding-left: 30px; }
   .type-left .hot-list {
     width: 300px;
     margin-top: 6px; }
@@ -68,8 +61,9 @@
         position: relative; }
         .type-left .hot-list ul li a {
           color: #444;
-          display: block; }
-          .type-left .hot-list ul li a:hover {
+          display: block;
+          height: 136px; }
+          .type-left .hot-list ul li a:hover .hot_name {
             text-decoration: underline; }
           .type-left .hot-list ul li a img {
             height: 110px;

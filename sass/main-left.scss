@@ -76,14 +76,6 @@
             }
         }
     }
-    .case-title {
-        background: url(../img/bg_case.jpg) 0 repeat-x;
-        font-size: 14px;
-        line-height: 35px;
-        height: 35px;
-        color: #000;
-        padding-left: 30px;
-    }
     .hot-list {
         width: 300px;
         margin-top: 6px;
@@ -98,7 +90,8 @@
                 a {
                     color: #444;
                     display: block;
-                    &:hover {
+                    height: 136px; 
+                    &:hover .hot_name{
                         text-decoration: underline;
                     }
                     img {

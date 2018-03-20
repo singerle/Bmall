@@ -1,11 +1,16 @@
 $content-width:1200px;
-body,input,ul,li,form,p,dl,dt,dd{
+html{
+    padding-bottom: 20px;
+    background-color: #000;
+}
+body,input,ul,li,form,p,dl,dt,dd,h3{
     margin: 0;
     padding: 0;}
    body{
     background: #15191e;
     font-family: "microsoft yahei";
     font-size: 12px;
+    color: #fff;
     a{
         text-decoration: none;
         color:#000000;
@@ -22,7 +27,7 @@ body,input,ul,li,form,p,dl,dt,dd{
     }
 }
 
-.head,.nav,.menu-banner,.aside-main{
+.head,.nav,.menu-banner,.aside-main,ul.brand{
     width: $content-width;
     margin: 0 auto;
 }
@@ -30,4 +35,14 @@ body,input,ul,li,form,p,dl,dt,dd{
     background-image: url(../img/Ficon.png);
     background-repeat: no-repeat;
 }
-        
+.aside-main{
+    overflow: hidden;
+}  
+.case-title {
+        background: url(../img/bg_case.jpg) 0 repeat-x;
+        font-size: 14px;
+        line-height: 35px;
+        height: 35px;
+        color: #000;
+        padding-left: 30px;
+}

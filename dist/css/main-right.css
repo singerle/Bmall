@@ -1,5 +1,6 @@
 .recommend-right {
-  float: left; }
+  float: left;
+  width: 900px; }
   .recommend-right ul.smallEye {
     height: 98px;
     width: 900px; }
@@ -20,31 +21,126 @@
   .recommend-right .recommend-goods {
     height: 260px;
     width: 100%;
-    margin-top: 1px; }
-    .recommend-right .recommend-goods ul {
+    margin-top: 1px;
+    width: 902px; }
+    .recommend-right .recommend-goods ul.menu {
       height: 36px;
       font-size: 14px;
-      line-height: 36px; }
-      .recommend-right .recommend-goods ul li {
+      line-height: 36px;
+      display: flex;
+      justify-content: space-around; }
+      .recommend-right .recommend-goods ul.menu li {
         float: left;
         background: #20252a;
         height: 36px;
-        width: 33.21%;
+        width: 33%;
         text-align: center;
         cursor: pointer;
         color: #fff; }
-        .recommend-right .recommend-goods ul li span {
+        .recommend-right .recommend-goods ul.menu li span {
           display: inline-block;
           height: 16px;
           width: 16px;
           margin-right: 8px;
           vertical-align: middle; }
-      .recommend-right .recommend-goods ul li.hot span {
-        background: url(../img/Ficon.png) no-repeat -50px -150px; }
-      .recommend-right .recommend-goods ul li.new {
-        margin: 0 1px;
+      .recommend-right .recommend-goods ul.menu li.hot {
         background: #353a40; }
-        .recommend-right .recommend-goods ul li.new span {
+        .recommend-right .recommend-goods ul.menu li.hot span {
+          background: url(../img/Ficon.png) no-repeat -50px -150px; }
+      .recommend-right .recommend-goods ul.menu li.new {
+        margin: 0 1px 0 2px; }
+        .recommend-right .recommend-goods ul.menu li.new span {
           background: url(../img/Ficon.png) no-repeat -50px -200px; }
-      .recommend-right .recommend-goods ul li.super span {
+      .recommend-right .recommend-goods ul.menu li.super span {
         background: url(../img/Ficon.png) no-repeat -50px -250px; }
+    .recommend-right .recommend-goods .goods {
+      overflow: hidden;
+      height: 224px;
+      position: relative; }
+      .recommend-right .recommend-goods .goods ul.first {
+        display: block; }
+      .recommend-right .recommend-goods .goods ul {
+        display: none;
+        width: 900px;
+        height: 224px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #353a40; }
+        .recommend-right .recommend-goods .goods ul li {
+          padding: 12px 0px 0px 55px;
+          float: left; }
+          .recommend-right .recommend-goods .goods ul li a {
+            display: block;
+            position: relative; }
+            .recommend-right .recommend-goods .goods ul li a:hover p {
+              text-decoration: underline; }
+            .recommend-right .recommend-goods .goods ul li a img {
+              width: 155px;
+              height: 155px;
+              margin-bottom: 0px; }
+            .recommend-right .recommend-goods .goods ul li a p {
+              cursor: pointer;
+              font-size: 12px;
+              color: #888;
+              height: 32px;
+              overflow: hidden;
+              line-height: 16px;
+              display: block; }
+            .recommend-right .recommend-goods .goods ul li a p.cost {
+              height: 26px; }
+            .recommend-right .recommend-goods .goods ul li a div {
+              height: 40px;
+              width: 40px;
+              position: absolute;
+              top: 0;
+              left: 0; }
+            .recommend-right .recommend-goods .goods ul li a .hot {
+              background-position: 0px -400px; }
+            .recommend-right .recommend-goods .goods ul li a .new {
+              background-position: -50px -400px; }
+            .recommend-right .recommend-goods .goods ul li a .super {
+              background-position: -100px -400px; }
+  .recommend-right .case-title {
+    margin-bottom: 1px; }
+    .recommend-right .case-title a {
+      display: block;
+      float: right;
+      margin-right: 20px; }
+  .recommend-right .stage-1 {
+    margin-top: 6px; }
+  .recommend-right .stage-1, .recommend-right .stage-2, .recommend-right .stage-3, .recommend-right .stage-4 {
+    margin-left: 1px;
+    background: #e6e6e6; }
+    .recommend-right .stage-1 ul, .recommend-right .stage-2 ul, .recommend-right .stage-3 ul, .recommend-right .stage-4 ul {
+      padding: 22px 0 6px 0;
+      overflow: hidden; }
+      .recommend-right .stage-1 ul li, .recommend-right .stage-2 ul li, .recommend-right .stage-3 ul li, .recommend-right .stage-4 ul li {
+        padding: 0px 0px 6px 52px;
+        float: left; }
+        .recommend-right .stage-1 ul li a, .recommend-right .stage-2 ul li a, .recommend-right .stage-3 ul li a, .recommend-right .stage-4 ul li a {
+          display: block;
+          width: 160px; }
+          .recommend-right .stage-1 ul li a:hover p, .recommend-right .stage-2 ul li a:hover p, .recommend-right .stage-3 ul li a:hover p, .recommend-right .stage-4 ul li a:hover p {
+            text-decoration: underline; }
+          .recommend-right .stage-1 ul li a img, .recommend-right .stage-2 ul li a img, .recommend-right .stage-3 ul li a img, .recommend-right .stage-4 ul li a img {
+            width: 155px;
+            height: 155px;
+            vertical-align: bottom; }
+          .recommend-right .stage-1 ul li a p, .recommend-right .stage-2 ul li a p, .recommend-right .stage-3 ul li a p, .recommend-right .stage-4 ul li a p {
+            font-size: 12px;
+            cursor: pointer;
+            color: #888;
+            line-height: 16px;
+            overflow: hidden;
+            display: block;
+            width: 160px; }
+          .recommend-right .stage-1 ul li a p.goods-name, .recommend-right .stage-2 ul li a p.goods-name, .recommend-right .stage-3 ul li a p.goods-name, .recommend-right .stage-4 ul li a p.goods-name {
+            height: 32px;
+            padding-top: 6px;
+            margin-top: 0px; }
+          .recommend-right .stage-1 ul li a p.goods-price, .recommend-right .stage-2 ul li a p.goods-price, .recommend-right .stage-3 ul li a p.goods-price, .recommend-right .stage-4 ul li a p.goods-price {
+            color: #000;
+            height: 26px; }
+
+/*# sourceMappingURL=main-right.css.map */

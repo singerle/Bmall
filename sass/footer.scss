@@ -1,0 +1,156 @@
+.footer {
+    margin-top: 80px;
+    ul.brand {
+        margin: 0 auto;
+        background: url(../img/brand.jpg) 0 0 no-repeat;
+        height: 86px;
+        overflow: hidden;
+        li {
+            float: left;
+            display: block;
+            height: 100%;
+            a {
+                display: block;
+                height: 100%;
+                width: 100%;
+            }
+            &:nth-of-type(1) {
+                font-weight: bold;
+                width: 90px;
+                height: 56px;
+                padding-top: 10px;
+                font-size: 18px;
+                line-height: 30px;
+                text-align: center;
+                color: #000;
+            }
+            &:nth-of-type(2),
+            &:nth-of-type(3),
+            &:nth-of-type(5) {
+                width: 160px;
+            }
+            &:nth-of-type(4) {
+                width: 120px;
+            }
+            &:nth-of-type(6) {
+                width: 130px;
+            }
+            &:nth-of-type(7) {
+                width: 180px;
+            }
+            &:nth-of-type(8) {
+                width: 200px;
+            }
+        }
+    }
+    .bg-help {
+        background: #000;
+        .help-list {
+            margin: 0 auto;
+            width: 1000px;
+            padding-top: 20px;
+            padding-bottom: 30px;
+            overflow: hidden;
+            div {
+                float: left;
+                color: #fff;
+                word-break: break-all;
+                word-wrap: break-word;
+                width: 160px;
+                padding-left: 40px;
+                h3 {
+                    font-size: 14px;
+                    line-height: 40px;
+                }
+                ul {
+                    font-size: 12px;
+                    line-height: 22px;
+                    color: #999;
+                    li {
+                        a {
+                            color: #999;
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .fetureList {
+        height: 60px;
+        margin: 0 auto;
+        width: 1000px;
+        li {
+            font-size: 14px;
+            line-height: 60px;
+            float: left;
+            width: 200px;
+            text-align: center;
+            span {
+                height: 28px;
+                width: 32px;
+                display: inline-block;
+                margin-top: 6px;
+                vertical-align: middle;
+            }
+            span.serveIcon {
+                background-position: -50px -350px;
+            }
+            span.goodsIcon {
+                background-position: 0px -350px;
+            }
+            span.payIcon {
+                background-position: -100px -350px;
+            }
+            span.sendIcon {
+                background-position: -150px -350px;
+                margin-right: 10px;
+            }
+        }
+        li.pay {
+            width: 400px;
+        }
+    }
+    .copyInfo {
+        height: 140px;
+        padding-top: 20px;
+        .copyCon {
+            text-align: left;
+            width: 600px;
+            margin: 0 auto;
+            ul.logoList {
+                float: left;
+                li {
+                    float: left;
+                }
+                li.ne_logo {
+                    padding: 16px 0px 0px 10px;
+                }
+            }
+            div{
+                float: left;
+                ul{
+                    padding-top: 0px;
+                    padding-left: 20px;
+                    color: #aaa;
+                    text-align: left;
+                    font-size: 0;
+                    li{
+                        white-space: nowrap;
+                        display: inline-block;
+                        vertical-align: top;
+                        font-size: 12px;
+                        a{
+                            color: #aaa;
+                        }
+                    }
+                }
+                p{
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+}
