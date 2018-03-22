@@ -1,0 +1,50 @@
+.right {
+  float: left;
+  width: 899px; }
+  .right .case-title a {
+    display: block;
+    float: right;
+    margin-right: 20px; }
+  .right .category {
+    margin-left: 1px;
+    background: #e6e6e6; }
+    .right .category ul {
+      padding: 22px 0 6px 0;
+      overflow: hidden; }
+      .right .category ul li {
+        padding: 0px 0px 6px 52px;
+        float: left; }
+        .right .category ul li a {
+          display: block;
+          width: 160px;
+          position: relative; }
+          .right .category ul li a:hover p {
+            text-decoration: underline; }
+          .right .category ul li a img {
+            width: 155px;
+            height: 155px;
+            vertical-align: bottom; }
+          .right .category ul li a p {
+            font-size: 12px;
+            cursor: pointer;
+            color: #888;
+            line-height: 16px;
+            overflow: hidden;
+            display: block;
+            width: 160px; }
+          .right .category ul li a p.goods-name {
+            height: 32px;
+            padding-top: 6px;
+            margin-top: 0px; }
+          .right .category ul li a p.goods-price {
+            color: #000;
+            height: 26px;
+            overflow: hidden; }
+          .right .category ul li a input {
+            position: absolute;
+            width: 75px;
+            height: 26px;
+            background: red;
+            color: white;
+            border: none;
+            cursor: pointer; }

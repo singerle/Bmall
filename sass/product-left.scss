@@ -1,0 +1,256 @@
+.type-left {
+    width: 300px;
+    float: left;
+    padding-bottom: 80px;
+    .left-menu {
+        display: none;
+        position: absolute;
+        z-index:33;
+        background: #e6e6e6;
+        width: 300px;
+        border-bottom: 1px solid #000;
+        border-top: 1px solid #000;
+        >ul {
+            >li {
+                padding: 0px 0px 3px 35px;
+                height: 40px;
+                width: 265px;
+                line-height: 40px;
+                &:hover {
+                    background: #fff;
+                    ul {
+                        display: block;
+                    }
+                }
+                span {
+                    width: 28px;
+                    height: 20px;
+                    float: left;
+                    display: block;
+                    margin: 10px 5px 10px 0;
+                    background: url(../img/Ficon.png) 0px 2px no-repeat;
+                }
+                a {
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #000;
+                    float: left;
+                    height: auto;
+                    width: auto;
+                    line-height: 40px;
+                }
+                >ul {
+                    position: absolute;
+                    z-index: 3;
+                    display: none;
+                    left: 300px;
+                    width: 300px;
+                    padding: 2px 10px 13px 16px;
+                    background: #fff;
+                    >li:last-of-type {
+                        a {
+                            border-right: 1px solid #b8b8b8;
+                        }
+                    }
+                    li {
+                        float: left;
+                        height: auto;
+                        width: auto;
+                        margin-top: 10px;
+                        text-align: left;
+                        float: left;
+                        a {
+                            color: #515050;
+                            font-size: 12px;
+                            display: block;
+                            width: auto;
+                            height: 18px;
+                            line-height: 18px;
+                            float: left;
+                            padding: 0 7px;
+                            white-space: nowrap;
+                            font-weight: normal;
+                            border-left: 1px solid #b8b8b8;
+                            &:hover {
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ul.game-type {
+        width: 266px;
+        padding-left: 34px;
+        height: 359px;
+        background: #b8b8b8;
+        li.game-type-title {
+            font-size: 12px;
+            color: #000;
+            height: 40px;
+            line-height: 40px;
+            background: none;
+        }
+        li {
+            height: 46px;
+            width: 231px;
+            float: left;
+            vertical-align: top;
+            margin-bottom: 2px;
+            background-image: url(../img/game_type4.jpg);
+            background-repeat: no-repeat;
+            a {
+                display: block;
+                width: 231px;
+                height: 46px;
+            }
+        }
+        li.wow {
+            background-position: -6px -4px;
+            a {
+                &:hover {
+                    background: url(../img/game_type4.jpg) no-repeat -265px -4px;
+                }
+            }
+        }
+        li.hs {
+            background-position: -6px -52px;
+            a {
+                &:hover {
+                    background: url(../img/game_type4.jpg) no-repeat -265px -52px;
+                }
+            }
+        }
+        li.sc2 {
+            background-position: -6px -100px;
+            a {
+                &:hover {
+                    background: url(../img/game_type4.jpg) no-repeat -265px -100px;
+                }
+            }
+        }
+        li.d3 {
+            background-position: -6px -148px;
+            a {
+                &:hover {
+                    background: url(../img/game_type4.jpg) no-repeat -265px -148px;
+                }
+            }
+        }
+        li.hos {
+            background-position: -6px -197px;
+            a {
+                &:hover {
+                    background: url(../img/game_type4.jpg) no-repeat -265px -197px;
+                }
+            }
+        }
+        li.ow {
+            background-position: -6px -247px;
+            a {
+                &:hover {
+                    background: url(../img/game_type4.jpg) no-repeat -265px -247px;
+                }
+            }
+        }
+    }
+    .hot-list {
+        width: 300px;
+        ul {
+            width: 276px;
+            background: #e6e6e6;
+            padding: 25px 0 16px 24px;
+            li {
+                height: 110px;
+                padding-bottom: 26px;
+                position: relative;
+                a {
+                    color: #444;
+                    display: block;
+                    height: 136px;
+                    &:hover .hot_name {
+                        text-decoration: underline;
+                    }
+                    img {
+                        height: 110px;
+                        width: 110px;
+                        float: left;
+                    }
+                    .top_1 {
+                        height: 40px;
+                        width: 40px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        background-position: 0px -450px;
+                    }
+                    .top_2 {
+                        height: 40px;
+                        width: 40px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        background-position: -50px -450px;
+                    }
+                    .top_3 {
+                        height: 40px;
+                        width: 40px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        background-position: -100px -450px;
+                    }
+                    .hot_name {
+                        cursor: pointer;
+                        font-size: 12px;
+                        line-height: 20px;
+                        float: left;
+                        padding-left: 8px;
+                        width: 140px;
+                        span.goods_cost {
+                            color: #000;
+                            height: 26px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .activity {
+        ul.big_activity {
+            background: #e6e6e6;
+            padding: 14px 0 17px 0;
+            li {
+                width: 240px;
+                height: 200px;
+                padding: 12px 30px;
+                a {
+                    display: block;
+                    img {
+                        width: 240px;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+        ul.small_activity {
+            background: #e6e6e6;
+            padding-top: 28px;
+            padding-bottom: 13px;
+            border-top: 1px solid #15191e;
+            li {
+                width: 240px;
+                height: 100px;
+                padding: 0 30px 18px 30px;
+                a {
+                    display: block;
+                    img {
+                        width: 240px;
+                        height: 100px;
+                    }
+                }
+            }
+        }
+    }
+}

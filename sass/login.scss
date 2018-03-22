@@ -1,0 +1,121 @@
+#login {
+    display: none;
+    $width: 320px;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    width: 320px;
+    overflow: hidden;
+    border-radius: 4px;
+    background: #fff;
+    text-align: left;
+    padding: 0 50px 50px;
+    z-index: 501;
+    div.close-login{
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: url(../img/login.png) -99px -85px no-repeat;
+    }
+    div.logo {
+        margin: 30px auto;
+        width: 150px;
+        height: 25px;
+        background: url(../img/login.png) -16px -28px no-repeat;
+    }
+    p {
+        overflow: hidden;
+        border: 1px solid #c5cddb;
+        background: #fff;
+        width: $width;
+        margin-bottom: 20px;
+        i {
+            display: inline-block;
+            font-size: 30px;
+            margin: 0 10px;
+            vertical-align: middle;
+            color: #000;
+        }
+        input {
+            width: 235px;
+            height: 44px;
+            border: 0;
+            font-size: 12px;
+            line-height: 44px;
+            text-indent: 20px;
+            border: 0;
+            outline: 0;
+        }
+        a {
+            float: left;
+            height: 12px;
+            text-decoration: none;
+            cursor: pointer;
+            color: #999;
+            font-size: 12px;
+            line-height: 12px;
+        }
+        a.toRegister{
+            float: right;
+        }
+        
+    }
+    p.bottom{
+        border: 0;
+    }
+    div {
+        width: $width;
+    }
+    div.protect {
+        width: 298px;
+        margin-top: -3px;
+        font-size: 12px;
+        line-height: 20px;
+        font-size: 12px;
+        line-height: 20px;
+        vertical-align: top;
+        word-break: break-all;
+        text-indent: 20px;
+        div.tishi {
+            position: absolute;
+            background: url(../img/login.png) -249px -405px no-repeat;
+            width: 20px;
+            height: 16px;
+        }
+        a {
+            color: #4aafe9;
+            text-decoration: none;
+        }
+    }
+    div.click-login {
+        width: $width;
+        height: 44px;
+        line-height: 44px;
+        text-align: center;
+        color: #fff;
+        background: #ca5252;
+        margin: 10px 0;
+        cursor: pointer;
+    }
+}
+.discover{
+    position: fixed;
+    display: none;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 3428px;   
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    z-index: 500;
+}
+.login{
+    cursor: pointer;
+}

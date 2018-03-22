@@ -1,0 +1,65 @@
+.right {
+    float: left;
+    width: 899px;
+    .case-title {
+        a {
+            display: block;
+            float: right;
+            margin-right: 20px;
+        }
+    }
+    .category {
+        margin-left: 1px;
+        background: #e6e6e6;
+        ul {
+            padding: 22px 0 6px 0;
+            overflow: hidden;
+            li {
+                padding: 0px 0px 6px 52px;
+                float: left;
+                a {
+                    display: block;
+                    width: 160px;
+                    position: relative;
+                    &:hover p {
+                        text-decoration: underline;
+                    }
+                    img {
+                        width: 155px;
+                        height: 155px;
+                        vertical-align: bottom;
+                    }
+                    p {
+                        font-size: 12px;
+                        cursor: pointer;
+                        color: #888;
+                        line-height: 16px;
+                        overflow: hidden;
+                        display: block;
+                        width: 160px;
+                    }
+                    p.goods-name {
+                        height: 32px;
+                        padding-top: 6px;
+                        margin-top: 0px;
+                    }
+                    p.goods-price {
+                        color: #000;
+                        height: 26px;
+                        overflow: hidden;
+                        
+                    }
+                    input{
+                            position: absolute;
+                            width: 75px;
+                            height: 26px;
+                            background: red;
+                            color: white;
+                            border: none;
+                            cursor: pointer;
+                        }
+                }
+            }
+        }
+    }
+}

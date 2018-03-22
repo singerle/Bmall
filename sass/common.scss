@@ -11,9 +11,14 @@ body,input,ul,li,form,p,dl,dt,dd,h3{
     font-family: "microsoft yahei";
     font-size: 12px;
     color: #fff;
+    word-break: break-all;
+    word-wrap: break-word;
     a{
         text-decoration: none;
         color:#000000;
+        &:hover{
+            text-decoration: underline;
+        }
     }
     b{
         font-style: normal;
@@ -27,7 +32,7 @@ body,input,ul,li,form,p,dl,dt,dd,h3{
     }
 }
 
-.head,.nav,.menu-banner,.aside-main,ul.brand{
+.head,.nav,.menu-banner,.aside-main,ul.brand,ul.shop-show{
     width: $content-width;
     margin: 0 auto;
 }
